@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+    <!-- Timeout -->
+    <Timeout>5</Timeout>
+
+    <!-- Web -->
+    <BrowserName>chrome</BrowserName>
+    <URL>https://www.saucedemo.com/</URL>
+    <ImageRepo>C:\\Automation\\Projects\\FinalProject\\ImageRepository\\</ImageRepo>
+    <Pass>secret_sauce</Pass>
+    <Username>standard_user</Username>
+    <LoginError>Epic sadface: Sorry, this user has been locked out.</LoginError>
+
+    <!-- Mobile -->
+    <UDID>ce051715b5d64c1301</UDID>
+    <AppPackage>com.shivgadhia.android.ukMortgageCalc</AppPackage>
+    <AppActivity>.MainActivity</AppActivity>
+    <AppiumServer>http://localhost:4723/wd/hub</AppiumServer>
+
+    <!-- API -->
+    <urlAPI>https://reqres.in/</urlAPI>
+
+    <!-- Data-Driven-Testing -->
+    <DDTFile>./DDTFiles/users.csv</DDTFile>
+
+    <!-- Electron -->
+    <ElectronDriverPath>./Drivers/electrondriver.exe</ElectronDriverPath>
+    <ElectronAppPath>C:/Users/Aviran/AppData/Local/Programs/todolist/Todolist.exe</ElectronAppPath>
+
+    <!-- Desktop -->
+    <CalculatorApp>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</CalculatorApp>
+    <AppiumServerDesktop>http://127.0.0.1:4723</AppiumServerDesktop>
+
+    <!-- Database -->
+    <DBURL>jdbc:mysql://sql11.freemysqlhosting.net:3306/sql11438245</DBURL>
+    <DBUsername>sql11438245</DBUsername>
+    <DBPass>JmImtRfmCD</DBPass>
+
+</Environment>
